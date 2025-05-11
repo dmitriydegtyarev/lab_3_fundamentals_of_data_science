@@ -133,4 +133,4 @@ else:
 
 # Коефіцієнт кореляції Пірсона
 correlation, p_value = stats.pearsonr(data['amount'], data['velocity_score'])
-print(f"Коефіцієнт кореляції між 'amount' та 'velocity_score': {correlation:.4f}")
+print(f"Коефіцієнт кореляції між 'amount' та 'velocity_score': {correlation}")
